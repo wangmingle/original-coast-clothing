@@ -15,12 +15,12 @@ require("dotenv").config();
 
 // Required environment variables
 const ENV_VARS = [
-  "PAGE_ID",
-  "APP_ID",
-  "PAGE_ACCESS_TOKEN",
+  "103246694587225",
+  "775379546282343",
+  "EAAC3jmX9TMcBAKOEAdjUrGAGyLhoWdldF2cvgyeVeADYbsoWy3xDDCNeK4vLr6tXtMVsLGxiF1OkdHVUfyNdAGQ3S3ZB9NiQVmuc0kvasTMKas8FS4hZBTxA42NMklOclYLXHiUDYgUWmXAxbuZCOi0YR37Bqi1uWBIrOXfhN4dLbrxmMOkr4ZAp6YjjiZBeevQFc6Ddl0H0TjIZAvo73N2fPHAbhA30QZD",
   "APP_SECRET",
   "VERIFY_TOKEN",
-  "APP_URL",
+  "127.0.0.1",
   "SHOP_URL"
 ];
 
@@ -46,7 +46,7 @@ module.exports = {
   personas: {},
 
   // Preferred port (default to 3000)
-  port: process.env.PORT || 3000,
+  port: process.env.PORT || 1337,
 
   get mPlatfom() {
     return this.mPlatformDomain + "/" + this.mPlatformVersion;
